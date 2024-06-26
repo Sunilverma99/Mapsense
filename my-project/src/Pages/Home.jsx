@@ -18,7 +18,7 @@ function Home() {
           <img src="final_logo_logo_1 1.png" alt="Logo" className='md:mb-4 md:mr-4' />
         </div>
         </div>
-        <p className=' md:text-xl text-sm  md:pl-14 px-4 text-white'>
+        <p className=' md:text-xl flex-wrap text-sm  md:pl-14 px-4 text-white'>
           Find all the important information and <br />
           all the things related to Covid Virus<br />
           and Vaccine here
