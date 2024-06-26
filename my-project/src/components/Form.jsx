@@ -9,7 +9,7 @@ function Form() {
 console.log(firstName,lastName,pincode);
   return (
    <div>
-       <div class="w-full">
+       <div class="w-full font-roboto">
   <form class=" px-8 pt-12 pb-8 mb-4">
     <div class="mb-4">
       <label  class="block text-gray-700 text-md  font-bold mb-2">

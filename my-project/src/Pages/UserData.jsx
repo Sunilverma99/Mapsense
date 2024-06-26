@@ -24,7 +24,7 @@ const UserData = (props) => {
   }, [update]);
   return (
     <div className='md:px-8'>
-       <div className='flex justify-between '>
+       <div className='flex justify-between font-roboto '>
     <div>
         <div className='flex items-center pt-4 pl-4 text-[#545454]'>
         <h2 className='font-[500] font-roboto md:text-2xl '>
@@ -89,8 +89,8 @@ const UserData = (props) => {
 
        </div>
       <div className='flex justify-center p-4 text-white font-bold md:gap-8 gap-4'>
-        <button onClick={()=>navigate('/')} className=' bg-[#FF3838] p-4 md:px-[34px]  md:text-2xl rounded-md'>Go Back</button>
-        <button onClick={()=>{update?setUpdate(false):setUpdate(true)}} className='bg-[#332272] p-4  md:px-[43px] md:text-2xl rounded-md'>Update Data</button>
+        <button onClick={()=>navigate('/')} className=' bg-[#FF3838] p-4 md:px-[34px]  md:text-2xl rounded-md font-roboto'>Go Back</button>
+        <button onClick={()=>{update?setUpdate(false):setUpdate(true)}} className='bg-[#332272] p-4  md:px-[43px] md:text-2xl rounded-md font-roboto'>Update Data</button>
       </div>
     </div>
   )
