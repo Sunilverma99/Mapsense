@@ -89,8 +89,8 @@ const UserData = (props) => {
 
        </div>
       <div className='flex justify-center p-4 text-white font-bold md:gap-8 gap-4'>
-        <button onClick={()=>navigate('/')} className=' bg-[#FF3838] p-4 md:px-[34px]  md:text-2xl rounded-md font-roboto'>Go Back</button>
-        <button onClick={()=>{update?setUpdate(false):setUpdate(true)}} className='bg-[#332272] p-4  md:px-[43px] md:text-2xl rounded-md font-roboto'>Update Data</button>
+        <button onClick={()=>navigate('/')} className=' bg-[#FF3838] p-4 md:px-[34px]  md:text-[24px] rounded-md font-roboto'>Go Back</button>
+        <button onClick={()=>{update?setUpdate(false):setUpdate(true)}} className='bg-[#332272] p-4  md:px-[43px] md:text-[24px] rounded-md font-roboto'>Update Data</button>
       </div>
     </div>
   )
