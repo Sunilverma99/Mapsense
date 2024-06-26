@@ -14,7 +14,6 @@ const UserData = (props) => {
         }
         const jsonData = await response.json();
         setData(jsonData);
-        console.log(jsonData)
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -38,7 +37,7 @@ const UserData = (props) => {
         <img src="final_logo_logo_1 1.png" alt="Logo" className='md:mb-4 md:mr-4   h-auto'/>
     </div>
 </div>
-      <div class="relative overflow-x-auto p-4">
+      <div className="relative overflow-x-auto p-4">
       <table className="w-full text-sm text-left  rtl:text-right dark:text-gray-400">
   <thead className="text-xs text-white bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> 
     <tr className="bg-[#332272] p-2 md:text-lg text-xs font-roboto text-center">
