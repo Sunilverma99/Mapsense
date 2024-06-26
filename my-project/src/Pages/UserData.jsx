@@ -38,7 +38,7 @@ const UserData = (props) => {
         <img src="final_logo_logo_1 1.png" alt="Logo" className='md:mb-4 md:mr-4   h-auto'/>
     </div>
 </div>
-      <div class="relative overflow-x-auto shadow-md sm:rounded-lg p-4">
+      <div class="relative overflow-x-auto p-4">
       <table className="w-full text-sm text-left  rtl:text-right dark:text-gray-400">
   <thead className="text-xs text-white bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> 
     <tr className="bg-[#332272] p-2 md:text-lg text-xs text-center">
@@ -72,7 +72,7 @@ const UserData = (props) => {
     {data.map((item, index) => (
       <tr
         key={index}
-        className={`${index % 2 === 0 ? "bg-[#ECECEC]" : "bg-[#F9F9F9]"} border-b rounded-lg dark:bg-gray-800 text-center dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600`}
+        className={`${index % 2 === 0 ? "bg-[#ECECEC]" : "bg-[#F9F9F9]"} border-b rounded-lg dark:bg-gray-800 text-center dark:border-gray-700`}
       >
         <td className="w-4 p-4 rounded-s-md">{item.pincode}</td>
         <td className="px-6 py-4">{item.districtName}</td>
