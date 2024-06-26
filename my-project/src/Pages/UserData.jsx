@@ -38,8 +38,8 @@ const UserData = (props) => {
     </div>
 </div>
       <div className="relative overflow-x-auto p-4">
-      <table className="w-full text-sm text-left  rtl:text-right dark:text-gray-400">
-  <thead className="text-xs text-white bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> 
+      <table className="w-full text-sm text-left  rtl:text-right ">
+  <thead className="text-xs text-white bg-gray-50  "> 
     <tr className="bg-[#332272] p-2 md:text-lg text-xs font-roboto text-center">
       <th scope="col" className="px-6 py-3 rounded-s-md">
         Pincode
@@ -71,7 +71,7 @@ const UserData = (props) => {
     {data.map((item, index) => (
       <tr
         key={index}
-        className={`${index % 2 === 0 ? "bg-[#ECECEC]" : "bg-[#F9F9F9]"} text-black border-b rounded-lg dark:bg-gray-800 text-center  font-roboto dark:border-gray-700`}
+        className={`${index % 2 === 0 ? "bg-[#ECECEC]" : "bg-[#F9F9F9]"} text-black border-b rounded-lg  text-center  font-roboto`}
       >
         <td className="w-4 p-4 rounded-s-md">{item.pincode}</td>
         <td className="px-6 py-4">{item.districtName}</td>
