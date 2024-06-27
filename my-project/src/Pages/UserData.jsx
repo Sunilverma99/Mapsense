@@ -217,15 +217,15 @@ const UserData = () => {
       <nav aria-label="Page navigation example " className=' text-center'>
   <ul class="inline-flex flex-wrap space-x-px text-sm pt-2  ">
     {pages.length>1 &&<li>
-      <button  onClick={prevPage} class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</button>
+      <button  onClick={prevPage} class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 ">Previous</button>
     </li>}
     {pages.length>1 && pages.map((page)=>(        
     <li>
-      <button  onClick={()=>setcurrentPage(page)}  className={`${currentPage==page?'active text-white font-bold bg-slate-600':''} flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-none hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`}>{page}</button>
+      <button  onClick={()=>setcurrentPage(page)}  className={`${currentPage==page?'active font-bold text-blue-400':''} flex items-center justify-center px-3 h-8 leading-tight  bg-white border border-gray-300 rounded-none hover:bg-gray-100 `}>{page}</button>
     </li>
     ))}
     {pages.length>1 && <li>
-      <button  onClick={nextPage} class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</button>
+      <button  onClick={nextPage} class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 ">Next</button>
     </li>}
   </ul>
 </nav>
