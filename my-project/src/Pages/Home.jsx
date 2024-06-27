@@ -3,7 +3,7 @@ import Form from '../components/Form'
 function Home() {
   return (
      <div className='flex'>
-    <div className='lg:flex h-screen font-roboto w-full'>
+    <div className='lg:flex h-screen  font-roboto w-full'>
       <div 
         className='lg:w-7/12 h-3/6 lg:h-screen  md:h-3/5 bg-center max-h-screen' 
         style={{ 
@@ -30,7 +30,7 @@ function Home() {
         <div className='lg:flex justify-end items-end hidden '>
           <img src="final_logo_logo_1 1.png" alt="Logo" className='mb-4 mr-4' />
         </div>
-        <Form className="w-full" />
+        <Form className="w-full h-screen" />
       </div>
     </div>
     </div>
