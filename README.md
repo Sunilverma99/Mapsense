@@ -55,13 +55,12 @@ Allows users to search for post office data by:
 - Pincode
 
 ## Project Structure
- # Contains public assets like index.html
-# Contains the source code for the application
- # Contains React components used throughout the application
- # Contains functions to fetch data from the API
-# Main component that sets up routing and layout
- # Entry point for the React application
-
+public/ # Contains public assets like index.html
+src/ # Contains the source code for the application
+├── components/ # Contains React components used throughout the application
+├── services/ # Contains functions to fetch data from the API
+├── App.js # Main component that sets up routing and layout
+└── index.js # Entry point for the React application
 
 ## Dependencies
 
