@@ -1,6 +1,6 @@
 # MapSense Frontend Application
 ![Home page](public/HomePage.png)
-## Overview
+## Overview 
 
 MapSense is a frontend web application built using React that provides information about postal services based on user input. This application utilizes a government API to fetch and display data related to post offices in India, including their names, types, locations, and other details.
 
