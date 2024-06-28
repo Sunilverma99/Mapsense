@@ -123,7 +123,7 @@ const UserData = () => {
               value={stateName}
               onChange={(e) => setStateName(e.target.value)}
               className="shadow appearance-none border rounded w-full py-4 px-3 text-black opacity-30 leading-tight focus:outline-none focus:shadow-outline"
-              id="firstName"
+              id="stateName"
               type="text"
               placeholder="State Name"
             />
@@ -133,7 +133,7 @@ const UserData = () => {
               value={districtName}
               onChange={(e) => setDistrictName(e.target.value)}
               className="shadow appearance-none border rounded w-full py-4 font-roboto px-3 text-black opacity-30 leading-tight focus:outline-none focus:shadow-outline"
-              id="lastName"
+              id="districtName"
               type="text"
               placeholder="District Name"
             />
@@ -234,12 +234,12 @@ const UserData = () => {
         </table>
       </div>
       <nav aria-label="Page navigation example " className=" text-center">
-        <ul class="inline-flex flex-wrap space-x-px text-sm pt-2  ">
+        <ul className="inline-flex flex-wrap space-x-px text-sm pt-2  ">
           {pages.length > 1 && (
             <li>
               <button
                 onClick={prevPage}
-                class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 "
+                className="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 "
               >
                 Previous
               </button>
@@ -247,7 +247,7 @@ const UserData = () => {
           )}
           {pages.length > 1 &&
             pages.map((page) => (
-              <li>
+              <li key={page}>
                 <button
                   onClick={() => setcurrentPage(page)}
                   className={`${
@@ -262,7 +262,7 @@ const UserData = () => {
             <li>
               <button
                 onClick={nextPage}
-                class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 "
+                className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 "
               >
                 Next
               </button>

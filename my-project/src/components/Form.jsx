@@ -68,7 +68,7 @@ function Form() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="shadow appearance-none border rounded w-full py-4 px-3 text-black opacity-30 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-              id="pincode"
+              id="email"
               type="email"
               placeholder="mapsense@gmail.com"
             />
