@@ -16,12 +16,12 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/mapsense.git
+    https://github.com/Sunilverma99/Mapsense.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd mapsense
+    cd my-project
     ```
 
 3. Install the necessary dependencies by running:
@@ -55,18 +55,18 @@ Allows users to search for post office data by:
 - Pincode
 
 ## Project Structure
-public/ # Contains public assets like index.html
-src/ # Contains the source code for the application
-├── components/ # Contains React components used throughout the application
-├── services/ # Contains functions to fetch data from the API
-├── App.js # Main component that sets up routing and layout
-└── index.js # Entry point for the React application
+ # Contains public assets like index.html
+# Contains the source code for the application
+ # Contains React components used throughout the application
+ # Contains functions to fetch data from the API
+# Main component that sets up routing and layout
+ # Entry point for the React application
 
 
 ## Dependencies
 
 - **React**: A JavaScript library for building user interfaces.
-- **Axios**: A promise-based HTTP client for making API requests.
+- **External Api**: An External api to collect the data.
 
 ## Usage
 
@@ -75,9 +75,6 @@ src/ # Contains the source code for the application
 3. Submit the form to view post office details related to your pincode.
 4. Use the search feature to find post office data by state name, district name, or pincode.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Contributing
 
@@ -85,4 +82,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact
 
-For any questions or feedback, please contact [Your Name] at [your-email@example.com].
+For any questions or feedback, please contact Sunil verma at [sunilverma99706@gmail.com].
