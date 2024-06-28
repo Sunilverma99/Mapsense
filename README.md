@@ -57,7 +57,7 @@ Allows users to search for post office data by:
 
 - **React**: A JavaScript library for building user interfaces.
 - **External Api**: An External api to collect the data.
--  **Redux**:A state Management libray. 
+-  **Redux**:A state Management library. 
 
 ## Usage
 
